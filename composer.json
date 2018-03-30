@@ -1,0 +1,32 @@
+{
+    "name": "elumina-elearning/event",
+    "description": "Event package",
+    "keywords": ["event", "emitter", "listener"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elumina Elearning",
+            "email": "sureshkumar.nagarajan@eluminaelearning.com.au"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0.0",
+        "henrikbjorn/phpspec-code-coverage" : "~1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "EluminaElearning\\Event\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EluminaElearning\\Event\\Stub\\": "stubs/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
